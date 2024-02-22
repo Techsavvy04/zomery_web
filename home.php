@@ -123,8 +123,8 @@
                             <font color="#FB88B4">chính sách & bảo mật
                         </a></font> của website<br />
                         <br />
-                        Hãy tin tưởng WusTeam chúng tôi cung cấp nhiều mã nguồn và công cụ để người sáng tạo thể hiện
-                        bản thân theo một cách độc đáo. Sử dụng ngay hôm nay và giải phóng tất cả sức mạnh của WusTeam
+                        Hãy tin tưởng Zomery chúng tôi cung cấp nhiều mã nguồn và công cụ để người sáng tạo thể hiện
+                        bản thân theo một cách độc đáo. Sử dụng ngay hôm nay và giải phóng tất cả sức mạnh của Zomery
                         !<br />
                         <br />
                         Owner ~ @Zomery
@@ -156,21 +156,7 @@
                     </div>
 
                 </div>
-                <div class="card-body ">
-                    <div class="d-flex  justify-content-start hover-success">
-
-                        <div class="card-title  ">
-                            <a class="hover-success fs-150" href="#">
-                                <h4>Cập nhật không cần đăng nhập vẫn xem được mã
-                                    nguồn.</h%>
-                            </a>
-                            <p class="text-fade fs-13"><img style="width:21px;margin-top:-3px;"
-                                    src="./assets/img/icon-clock.gif">&nbsp;09:35 - 10-01-2024</p>
-                        </div>
-
-                    </div>
-
-                </div>
+                
 
             </div>
 
