@@ -1,0 +1,127 @@
+
+.ua-icon {
+	display: inline-block;
+	width: 1pc;
+	height: 1pc;
+	background-size: cover;
+	background-repeat: no-repeat;
+	vertical-align: text-top
+}
+
+.icon-360 {
+	background-image: url(../img/360.png)
+}
+
+.icon-android {
+	background-image: url(../img/android.png);
+}
+
+.icon-apple {
+	background-image: url(../img/apple.png)
+}
+
+.icon-chrome {
+	background-image: url(../img/chrome.png)
+}
+
+.icon-edge {
+	background-image: url(../img/edge.png)
+}
+
+.icon-firefox {
+	background-image: url(../img/firefox.png)
+}
+
+.icon-google {
+	background-image: url(../img/google.png)
+}
+
+.icon-ie {
+	background-image: url(../img/ie.png)
+}
+
+.icon-linux {
+	background-image: url(../img/linux.png)
+}
+
+.icon-mac {
+	background-image: url(../img/mac.png)
+}
+
+.icon-opera {
+	background-image: url(../img/opera.png)
+}
+.icon-quark {
+	background-image: url(../img/quark.png)
+}
+
+.icon-safari {
+	background-image: url(../img/safari.png)
+}
+
+.icon-ubuntu {
+	background-image: url(../img/ubuntu.png)
+}
+
+.icon-uc {
+	background-image: url(../img/uc.png)
+}
+
+.icon-win1 {
+	background-image: url(../img/win1.png)
+}
+
+.icon-win2 {
+	background-image: url(../img/MicrosoftStartLogo_dark.svg)
+}
+.icon-Androidbrowser {
+	background-image: url(../img/Androidbrowser.png)
+}
+.icon-Unknown_browser {
+	background-image: url(../img/Unknown_browser.png)
+}
+.comment-ua {
+    font-size: 12px; 
+}
+.comment-text {
+    font-size: 16px; 
+    line-height: 1.2; 
+    color: #333; 
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #d283fa0d; 
+}
+.comment {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #ffffff38;
+}
+.comment-header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.comment-avatar img {
+	width: 50px;
+	height: 50px;
+}
+.comment-meta {
+	flex-grow: 1;
+	padding-left: 10px;
+}
+.comment-ua {
+	font-style: italic;
+	color: #00f7ff;
+	font-weight: 200;
+}
+.comment-author {
+	font-weight: bold;
+}
+.comment-content {
+	font-size: 10px;
+	line-height: 1.4;
+}
+.comment-footer {
+	margin-top: 10px;
+}	

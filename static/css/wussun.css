@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Potta One|Braah+One|Roboto&display=swap');
+
+.form-box {
+	font-family: Braah One;
+	display: flex;
+	flex-direction: column;
+	margin-top: 32px;
+	width: 100%;
+}
+
+.form-box textarea {
+	padding: 16px;
+	margin-bottom: 12px;
+	outline: none;
+	border-radius: 16px;
+	font-size: 24px;
+	height: 50px;
+	border: none;
+	box-shadow: inset 0px 0px 8px #576574;
+}
+
+.form-box #kyngucfan {
+	padding: 8px;
+	outline: none;
+	cursor: pointer;
+	background-color: #576574;
+	border-radius: 8px;
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	transition: all .35s ease;
+}
+
+#kyngucfan:hover {
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+}
+
+.AwesomeNight {
+	height: 250px;
+	width: 100%;
+}
+.container{
+	width: 80%;
+	height: 100%;
+}
+h1{
+ font-family: Braah One;
+	text-align: center;
+	line-height: 1;
+	padding: 32px;
+}
+.fukada-text_box,
+.fukada-text_box * {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+a:any-link{
+	text-decoration: none;
+}
+.fukada-text_box {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.6);
+	padding: 8px;
+	overflow: hidden;
+	/* z-index: 9999; */
+	background-color: antiquewhite;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fukada-text_box::before {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	left: -1px;
+	top: 0;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+	/* z-index: inherit; */
+
+}
+
+.fukada-text_box::after {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	right: -1px;
+	top: 0;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+	/* z-index: inherit; */
+
+}
+
+.fukada-text_item {
+	position: absolute;
+	width: fit-content;
+	height: 36px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 18px;
+	left: 100%;
+	/* z-index: 9998; */
+	cursor: pointer;
+	transition: box-shadow .3s ease;
+	box-shadow: 0px 0px .1px white;
+}
+
+.fukada-text_item:hover {
+	box-shadow: 0px 0px 8px #48dbfb;
+}
+
+.fukada-text_item .avatar {
+	height: 28px;
+	width: 28px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+.avatar img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.fukada-text_item .content {
+	font-weight: bold;
+	/* font-size: ; */
+	line-height: 1;
+	margin: 0 12px;
+	color: #576574;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#AwesomeWussunTeam {
+	position: relative;
+	width: 100%;
+	height: 300px;
+}

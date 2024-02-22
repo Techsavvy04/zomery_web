@@ -1,0 +1,20 @@
+AddDefaultCharset utf-8
+
+<files ".htaccess">
+    order allow,deny
+    deny from all
+</files>
+
+RewriteEngine On
+ErrorDocument 404 /404.php
+
+# LOGIN & SIGNUP
+RewriteRule ^login$ login.php [L]
+RewriteRule ^reg$ register.php [L]
+RewriteRule ^logout$ logout.php [L]
+
+# VENDOR
+RewriteRule ^error$ function/data_config/error_database.php [L]
+RewriteRule ^blackip$ function/ipblacklist.php [L]
+RewriteRule ^baotri$ function/data_config/baotri.php [L]
+# POSTED
