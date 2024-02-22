@@ -44,26 +44,4 @@ if (isset($_POST['dangnhap'])) {
             exit;
         }
         
-    //         exit;
-    //     } elseif ($row['banned'] == 1) {
-    //         echo "Tài khoản của bạn đã bị cấm!";
-    //         exit;
-    //     } else {
-    //         if (strtolower($row['role']) === "admin" || strtolower($row['role']) === "support") {
-    //             $thanhdieudb->query("UPDATE users SET verify_tick = '$verify_tick', ip = '$ip' WHERE taikhoan = '$taikhoan'");
-    //             $_SESSION['taikhoan'] = $taikhoan;
-    //             echo "success";
-    //             exit;
-    //         } else {
-    //             echo "Bạn không đủ quyền hạn để vào trang admin!";
-    //             exit;
-    //         }
-    //     }
-    // } else {
-    //   //  echo "Error: " . $thanhdieudb->error;
-    //   echo "Đã xảy ra lỗi...liên hệ với quản trị viên để biết chi tiết";
-    //     exit;
-    // }
-}
-}
-?>
+   
