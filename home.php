@@ -91,7 +91,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>Hh 
 <div class="content animated fadeIn">
     <div class="row items-push">
         <div class="col-sm-12 col-xxl-8">
@@ -133,7 +133,7 @@
             </div>
         </div>
         <div class="col-sm-12 col-xxl-4">
-            <div class="card ">
+            <div class="card border-info"> 
                 <div class="card-header mb-0">
 
                     <h3 class="fw-bold mb-0"><img style="margin-top:-5px;width:25px;"
@@ -156,7 +156,7 @@
                     </div>
 
                 </div>
-
+                
 
             </div>
 

@@ -8,7 +8,6 @@ $UserModel= new User();
     $UserModel -> matkhau = $matkhau;
 $result=$UserModel -> login();
 if (isset($_POST['dangnhap'])) {
-   
     $verify_tick = '<img class="verify_tick" src="./static/img/verified.png">';
     $ip_address = $_SERVER['REMOTE_ADDR'];
     if (DetectSQLInjection($taikhoan) || DetectSQLInjection($matkhau)) {
@@ -21,13 +20,12 @@ if (isset($_POST['dangnhap'])) {
     } elseif (trim($matkhau) == "") {
         echo "Mật khẩu không được bỏ trống!";
         exit;
-    } else {
-        if ($result) {
-            
+    } else{
+        if($result){
             $_SESSION['taikhoan']=$result;
             $role=$result -> role;
             $banned=$result -> banned;
-            if($banned == 1){
+            if($banned==1){
                 echo "Tài khoản của bạn đã bị cấm";
                 exit;
             }else{
@@ -38,10 +36,11 @@ if (isset($_POST['dangnhap'])) {
                     $_SESSION['member']="member";
                     echo "success";
                 }
-            }
+            }       
         }else{
-            echo "Tài khoản hoặc mật khẩu không đúng !";
-            exit;
-        }
-        
+        echo "Tài khoản hoặc mật khẩu không đúng";
+        exit;
+    }
+}
    
+}
