@@ -1,5 +1,28 @@
 <?php include 'layout/head.php'; ?>
 <div class="content animated fadeIn">
+    <div class="row item-push">
+        <div class="col-sm-12 col-xxl-12">
+            <div class="block d-flex flex-column h-30 mb-0">
+                <div
+                    class="block-content block-content-full flex-grow-1 d-flex justify-content-between align-items-center">
+                    <dl class="mb-0">
+                        <dt class="fs-3 fw-bold">Tạo trang thông tin thế hệ mới</dt>
+                        <p>Chúng tôi cung cấp nhiều mẫu giới thiệu bản thân miễn phí và dễ sử dụng nên không đòi hỏi.
+                            người sử dụng phải có kĩ năng lập trình</P>
+                    </dl>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="content animated fadeIn">
     <div class="row items-push">
         <div class="col-sm-12 col-xxl-12">
             <div class="block block-rounded d-flex flex-column h-100 mb-0">
@@ -22,10 +45,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 col-xxl-3">
+        <div class=" col-sm-6 col-xxl-3">
             <div class="block block-rounded d-flex flex-column h-100 mb-0">
                 <div
-                    class="block-content block-content-full flex-grow-1 d-flex justify-content-between align-items-center">
+                    class="border-info block-content block-content-full flex-grow-1 d-flex justify-content-between align-items-center">
                     <dl class="mb-0">
                         <dt class="fs-3 fw-bold" id="count1">10</dt>
                         <dd class="fs-sm fw-medium fs-sm fw-medium text-muted mb-0">Tổng số lượt truy cập</dd>
@@ -91,7 +114,7 @@
             </div>
         </div>
     </div>
-</div>Hh 
+</div>
 <div class="content animated fadeIn">
     <div class="row items-push">
         <div class="col-sm-12 col-xxl-8">
@@ -133,7 +156,7 @@
             </div>
         </div>
         <div class="col-sm-12 col-xxl-4">
-            <div class="card border-info"> 
+            <div class="card border-info">
                 <div class="card-header mb-0">
 
                     <h3 class="fw-bold mb-0"><img style="margin-top:-5px;width:25px;"
@@ -156,7 +179,7 @@
                     </div>
 
                 </div>
-                
+
 
             </div>
 

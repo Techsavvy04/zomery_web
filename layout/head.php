@@ -1,4 +1,6 @@
 <?php
+require_once("./conf/data.php");
+exit;
 @header('Content-Type: text/html; charset=UTF-8');
 
 session_start();
@@ -13,7 +15,6 @@ if(isset($_SESSION['admin'])){
 } else{
     header("Location:./login.php");
     }
-
 ?>
 <!DOCTYPE html>
 <html lang="vi-VN">
